@@ -18,7 +18,7 @@ app.use(messageRouter);
 app.use(roomRouter);
 
 app.use((req, res) => {
-  res.status(404).send('Page not found');
+  res.status(404).send('Page not  found');
 });
 
 const server = app.listen(3005);
